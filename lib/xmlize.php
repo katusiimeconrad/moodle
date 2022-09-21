@@ -39,7 +39,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-#[\ReturnTypeWillChange]
+
 class xml_format_exception extends moodle_exception {
     /** @var string */
     public $errorstring;
